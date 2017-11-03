@@ -1,0 +1,25 @@
+What happens when you initialize a repository? Why do you need to do it?
+.git directory is created
+To initialize a repository so it can start tracking the metadata of the files.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+The working directory is all the files in the directory, regardless of if they will be tracked or not.
+The staging area is only the files that are to be committed(tracked).
+It gives us more control when we commit.  If we made multiple changes in multiple files. It lets use break them into logical steps if we want and make seperate commits.
+
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
